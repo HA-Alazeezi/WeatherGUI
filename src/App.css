@@ -1,4 +1,10 @@
-.App {
+.App{
+  min-height: 100vh;
+  display: grid;
+  background: #3D5A6F;
+}
+
+/**.App {
   text-align: center;
 }
 
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}**/

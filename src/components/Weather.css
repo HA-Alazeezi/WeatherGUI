@@ -1,0 +1,100 @@
+.search-bar img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    height: 25px;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    font-size: 15px;
+    font-family: "Inria Serif", serif;
+}
+
+.weather-data .col img {
+    width: 30px;
+    height: 30px;
+    margin-top:5px;
+}
+.weather-data .col {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 1px; /* Add space between elements */
+    font-size: 20px;
+    font-family: "Inria Serif", serif;
+
+    /**gap: 5px;
+    font-size: 20px;
+    font-family: "Inria Serif", serif;**/
+}
+.weather-data .col span{
+    /**display: block;**/
+    font-size: 15px;
+    margin-bottom: 5px; /* Add margin between label and icon */
+}
+.weather-data{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: "Inria Serif", serif;
+}
+
+.weather {
+    place-self: center;
+    padding: 50px;
+    border-radius: 20px;
+    background-color:#3D5A6F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-icon{
+    margin-top: 20px;
+    width: 100px; /* Adjust to your preferred size */
+    height: 100px; /* Adjust to your preferred size */
+    margin-top: 20px;
+    object-fit: contain; /* Ensures the icon fits within the defined dimensions */
+
+}
+.temperature{
+    margin-top: 60px;
+    color: #FFFFFF;
+    font-size: 55px;
+    line-height: 1;
+    font-family:"Inria Serif", serif;
+
+}
+.location{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: "Inria Serif", serif;
+}
+
+.status{
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: "Inria Serif", serif;
+    margin-top: 10px; /* Adjust margin above status */
+
+
+}
+
+.location, .status, .temperature {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    text-align: center;
+}
