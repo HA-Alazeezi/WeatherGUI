@@ -6,9 +6,9 @@ body {
 
 }
 .App{
-  min-height: 100vh;
-  display: grid;
-  /**background: #3D5A6F;**/
-  background-image: linear-gradient(45deg,  #3D5A6F, white);
+  /**min-height: 100vh;
+  display: grid;**/
+  background: #3D5A6F;
+  /**background-image: linear-gradient(45deg,  #3D5A6F, white);**/
 }
 
